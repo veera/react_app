@@ -1,7 +1,5 @@
 <h1>Simple blog!</h1>
-<p>
-<%= link_to 'My Blog', controller: 'articles' %>
-</p>
-<p>
-<%= link_to 'New article', new_article_path %>
-</p>
+<ul class="nav nav-pills">
+  <li role="presentation" class="active"><%= link_to 'My Blog', controller: 'articles' %></li>
+  <li role="presentation"><%= link_to 'New article', new_article_path %></li>
+</ul>
